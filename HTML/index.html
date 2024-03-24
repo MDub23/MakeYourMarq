@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Make Your Marq 309</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/CSS/default.css">
+        <link rel="stylesheet" href="/CSS/styles.css">
+        <link rel="stylesheet" href="/CSS/responsive.css">
+
+    </head>
+    <body>
+        <div class="bg-header">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <img class="title" src="/Assets/Images/logo.png" alt="">
+                    </div>
+
+                    <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+                        <span>&#9776;</span>
+                    </button>
+                
+                        <div class="nav-list">
+
+                        <ul class="nav">
+                            <li>
+                                <a class="nav-link"  href="./index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="/HTML/about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="/HTML/contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a class="nav-link hire glow" href="/HTML/donate.html">Donate</a>
+                            </li>
+                        </ul>
+                        </div>
+                        
+                   
+                </div>
+            </nav>
+        
+            <div id="home" class="home-box">
+                <div class="headline">
+                    <h2 class="empower">Empowering<br> our youth.<br></h2>
+                    <hr>
+                    <h2 class="shaping">Shaping our<br> future.</h2>
+                 </div>
+
+                <div class="logo-container">                        
+                        <div class="marq-logo">
+                            <img src="/Assets/Images/Asa-and-kids.png" alt="">
+                        </div>
+                </div>
+            </div>
+                           
+        <script>
+            const navButton = document.querySelector('button[aria-expanded]');
+            
+            function toggleNav({ target }) {
+                const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+                navButton.setAttribute('aria-expanded', !expanded); 
+            }
+
+            navButton.addEventListener('click', toggleNav);
+        </script>
+
+    </body>
+</html>

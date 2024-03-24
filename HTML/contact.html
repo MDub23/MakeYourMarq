@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Make Your Marq 309</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/CSS/default.css">
+        <link rel="stylesheet" href="/CSS/contact.css">
+        <link rel="stylesheet" href="/CSS/responsive.css">
+
+    </head>
+    <body>
+        <div class="bg-header">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <img class="title" src="/Assets/Images/logo.png" alt="">
+                    </div>
+
+                    <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+                        <span>&#9776;</span>
+                    </button>
+                
+                        <div class="nav-list">
+
+                        <ul class="nav">
+                            <li>
+                                <a class="nav-link"  href="/HTML/index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="/HTML/about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="/HTML/contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a class="nav-link hire glow" href="/HTML/donate.html">Donate</a>
+                            </li>
+                        </ul>
+                        </div>
+                        
+                   
+                </div>
+            </nav>
+        
+                           
+
+
+
+           
+        </div>
+
+      <section class="contact">
+            <div class="location-phone">
+                <div class="location">
+                    <p><i class="fa-solid fa-location-arrow"></i>
+                        153 Williamson Plaza, Maggieberg</p>
+                </div>
+                <div class="phone">
+                    <p><i class="fa-solid fa-phone"></i>
+                     (309) 555-2345</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                
+    
+                <div class="contact-card">
+                    <h5>Company</h5>
+                    <a href="">About</a>
+                    <a href="">Career <span>We're hiring</span></a>
+                    <a href="">Blog</a>
+                    <a href="">Customers</a>
+                    <a href="">Hire us</a>
+                </div>
+
+                <div class="contact-card">
+                    <h5>Features</h5>
+                    <a href="">Press</a>
+                    <a class="release" href="">Release notes</a>
+                    <a href="">Integrations</a>
+                    <a href="">Pricing</a>
+                </div>
+
+                <div class="contact-card">
+                    <h5>Doccumentation</h5>
+                    <a href="">Support</a>
+                    <a href="">Docs</a>
+                    <a href="">Status</a>
+                    <a href="">API Reference</a>
+                    <a href="">Tech Requirements</a>
+                </div>
+
+                <div class="contact-card">
+                    <h5>Resources</h5>
+                    <a href=""><i class="fa-solid fa-circle-info"></i> Help</a>
+                    <a href=""><i class="fa-solid fa-user"></i> Your Account</a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+ 
+        <footer id="contact">
+          <div class="social">
+                <div class="privacy-policy" >
+                    <p>Privacy & Policy > <span>Terms</span> > Site Map</p>
+                </div>
+
+                <div class="social-icons">
+
+                    <div class="social-links">
+                        <a  href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a  href="#">
+                            <i class="fa-brands fa-google"></i>                        
+                        </a>
+                    </div>
+                    <div class="social-links linked-in">
+                        <a  href="#">
+                            <i class="fa-brands fa-linkedin" style="color: #f0f8ff;"></i>
+                        </a>                   
+                    </div>
+                    <div class="social-links">
+                        <a  href="#">
+                            <i class="fa-brands fa-github"></i>                        
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-regular fa-copyright"></i><b> WhiteRabbit LLC 2023. All rights reserved.</b></p>
+                <p>When you visit or interact with our sites, services, or tools, we or our authorized service providers may<br>
+                use cookies for storing information to help provide you with a better, faster, and safer experience and<br>
+                for marketing purposes.</p>
+            </div>
+        </footer>
+
+        <script>
+            const navButton = document.querySelector('button[aria-expanded]');
+            
+            function toggleNav({ target }) {
+                const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+                navButton.setAttribute('aria-expanded', !expanded); 
+            }
+
+            navButton.addEventListener('click', toggleNav);
+        </script>
+
+    </body>
+</html>

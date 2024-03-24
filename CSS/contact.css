@@ -1,0 +1,192 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border: groove 3px #191970;
+    border-radius: 5%;
+    padding: none;
+    margin-left: 40px;
+}
+
+.title {
+    width: 210px;
+    height: 85px;
+}
+
+[aria-controls="navbarDropdown"]{
+    display: none;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+.navbar span {
+    font-size: 30px;
+    color: black;
+}
+
+.container  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 3px solid #000000;
+    align-items: center;
+    padding: 5px;
+}
+
+li {width: 100px;}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    margin-left: 55%;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.glow {
+    background-color: rgb(255, 255, 255, .6);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-weight: 700;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.bg-header {
+    background-image: linear-gradient(130deg, black 27%, #ef953e 45%, yellow 50%, #8efa5a 60%, #82fbd6 65%, #49a0bb 75%, black 83% );
+    background-size: cover;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 30px ;
+}
+
+.contact img  {width: 90px;}
+
+.contact i {color:rgb(0, 56, 104);}
+
+.location-phone {width: auto;}
+
+.location {
+    font-size: 13px;
+    color:rgb(0, 56, 104);
+}
+
+.phone {
+    font-size: 13px;
+    color: rgb(0, 136, 255); 
+}
+
+.contact-box {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-card h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contact-card a {color: rgb(0, 56, 104) ;}
+
+.contact-card span {
+    background-color:rgb(0, 136, 255);
+    border-radius: 1px;
+    font-size: 12px;
+}
+
+.contact-card i {
+    font-size:15px;
+    padding-right: 5px;
+}
+
+a.release {
+    color:rgb(0, 136, 255) ;
+    font-weight: 600;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: rgb(0, 56, 104);
+}
+
+.privacy-policy {
+    width: auto;
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+.social span {color:rgb(0, 136, 255) ;}
+
+.social p {flex-wrap: nowrap;}
+
+.social-icons {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-left: 40%;
+  
+}
+
+.social-links {
+    width: 30px;
+    height: auto;
+    background-size: cover;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color:rgb(0, 136, 255, 0.1) ;
+    border-radius: 8px;
+}
+
+.linked-in {    background-color: rgb(0, 56, 104) ;}
+
+.country-select {padding: 20px;}
+
+ .country-select select {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 136, 255, 0.1) ;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 30px;
+    color: rgb(0, 56, 104) ;
+}

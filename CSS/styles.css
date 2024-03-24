@@ -1,0 +1,458 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border: groove 3px #191970;
+    border-radius: 5%;
+    padding: none;
+    margin-left: 40px;
+}
+
+.title {
+    width: 210px;
+    height: 85px;
+}
+
+[aria-controls="navbarDropdown"]{
+    display: none;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+.navbar span {
+    font-size: 30px;
+    color: black;
+}
+
+.container  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 3px solid #000000;
+    align-items: center;
+    padding: 5px;
+}
+
+li {width: 100px;}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    margin-left: 55%;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.glow {
+    background-color: rgb(255, 255, 255, .6);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-weight: 700;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.bg-header {
+    background-image: linear-gradient(130deg, black 27%, #ef953e 45%, yellow 50%, #8efa5a 60%, #82fbd6 65%, #49a0bb 75%, black 83% );
+    background-size: cover;
+}
+
+.home-box {
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 160px;
+    padding-bottom: 20px;
+}
+
+.home-box h2 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 60px;
+}
+
+.shaping {
+    color: #000000;
+    -webkit-text-stroke:1px rgb(255, 255, 255);
+}
+
+.empower {
+    color: #000000;
+    -webkit-text-stroke:1px rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+.home-box p {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.logo-container {
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 10px 40px 70px rgb(0, 0, 0);
+    border-radius: 50%;
+    position: static;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+.marq-logo img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50% ;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.about-text {
+    width: auto;
+    height: auto;
+}
+
+.about h1 {
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.certs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(87, 87, 87);
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.certs h5 {margin-top: 0;}
+
+.logos img {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #191970;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hire-us {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #191970;
+}
+
+.hire-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hire-us-text h5 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.hire-us-text {
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.hire-title {padding-bottom: 20px;}
+
+.hire-us hr {
+    border: 1px solid aliceblue;
+    float: left;
+    width: 50%;
+}
+
+.hire-quote {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hire-us-text h5, span {
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+.hire-us-text h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+
+.hire-us-text p {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.form-section {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+    padding-right: 50px;
+}
+
+.hire-form {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hire-form h3 {font-size: 18px;}
+
+.inputs {
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+}
+
+input {
+    width: 49%;
+    height: auto;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+select {
+    width: 49%;
+    height: 40px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.textarea {
+    text-align: center;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.privacy {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.privacy-box {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    overflow: hidden;
+    white-space: wrap;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+
+}
+
+.checkbox {width: 50px;}
+
+.privacy-text {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.privacy-links a {border-bottom: dotted 1px rgb(0, 136, 255) ;}
+
+.privacy-links {
+    display: flex;
+    width: auto;
+    font-size: 15px;
+    color:rgb(0, 136, 255) ;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.get-started-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color:rgb(0, 136, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 30px ;
+}
+
+.contact img  {width: 90px;}
+
+.contact i {color:rgb(0, 56, 104);}
+
+.location-phone {width: auto;}
+
+.location {
+    font-size: 13px;
+    color:rgb(0, 56, 104);
+}
+
+.phone {
+    font-size: 13px;
+    color: rgb(0, 136, 255); 
+}
+
+.contact-box {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-card h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contact-card a {color: rgb(0, 56, 104) ;}
+
+.contact-card span {
+    background-color:rgb(0, 136, 255);
+    border-radius: 1px;
+    font-size: 12px;
+}
+
+.contact-card i {
+    font-size:15px;
+    padding-right: 5px;
+}
+
+a.release {
+    color:rgb(0, 136, 255) ;
+    font-weight: 600;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: rgb(0, 56, 104);
+}
+
+.privacy-policy {
+    width: auto;
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+.social span {color:rgb(0, 136, 255) ;}
+
+.social p {flex-wrap: nowrap;}
+
+.social-icons {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-left: 40%;
+  
+}
+
+.social-links {
+    width: 30px;
+    height: auto;
+    background-size: cover;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color:rgb(0, 136, 255, 0.1) ;
+    border-radius: 8px;
+}
+
+.linked-in {    background-color: rgb(0, 56, 104) ;}
+
+.country-select {padding: 20px;}
+
+ .country-select select {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 136, 255, 0.1) ;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 30px;
+    color: rgb(0, 56, 104) ;
+}

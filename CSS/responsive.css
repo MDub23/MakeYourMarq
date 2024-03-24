@@ -1,0 +1,618 @@
+@media screen and (min-width:768px) and (max-width: 1200px) {
+
+    [aria-controls="navbarDropdown"]{
+        display: inline-flex;
+    }
+
+    [aria-expanded="false"] ~ .nav-list {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ ul {
+        display: inline-flex;
+    }
+
+    .bg-header {
+        background-image: linear-gradient(130deg, #191970 31%, aliceblue 64%);
+    }
+
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar span {font-size: 40px;}
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav li {
+        width: 170px;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        margin-left: 80%;
+    }
+
+    .nav-list ul  {
+        position: relative;
+        top: 0px;
+        right: 48%;
+        display:inline-flex;
+    }
+
+   .empower-box {
+        width: auto;
+        display: block;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin: auto;
+   }
+
+   .empower-box hr {width: 400px;}
+
+   .empower-box h2 {font-size: 45px;}
+
+   .empower-box p {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .empower-box .play-btn {
+        width: 190px;
+        height: 65px;
+        font-size: 20px;
+    }
+
+    .logo-container {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   .benefits {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .benefits-header h2 {font-size: 30px;}
+
+    .benefits-header p {font-size: 15px;}
+
+   .benefits-box  {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .benefits-box img {width: 50px;}
+
+   .benefits-card {
+        width: 300px;
+        height: auto;
+   }
+
+   .benefits-text h4 {
+        text-align: left;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .benefits-text p {font-size: 12px;}
+
+    .benefits-text a {font-size: 15px;}
+
+   .logos img {
+    width: 80px;
+    height: auto;
+   }
+
+   .pricing-header h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    }
+
+    .pricing-header p {font-size: 20px;}
+
+   .pricing {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        white-space: nowrap ;
+        padding: 20px;
+    }
+
+   .offer {
+        width: auto;
+        height: auto;
+        padding-bottom: 10px;
+   }
+
+   .dollar {font-size: 75px;}
+
+   p.pricing-text {
+        font-size: 20px;
+        text-align: left;
+        overflow: hidden;
+        white-space: wrap;
+    }
+
+    .pricing-text br {display: none;}
+
+   .offer hr {width: 100%;}
+
+   .offer span {font-size: 35px;}
+
+   .credit {font-size: 25px;}
+
+   .grid-play-btn {
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+   }
+
+   .credit {font-size: 18px;}
+
+   .pricing-grid {padding: 0;}
+
+   .grid-box img {
+    width: 50px;
+   }
+
+   .grid-box h5 {font-size: 15px;}
+
+   .grid-box p {font-size: 15px;}
+
+   .grid-box {
+        width: 300px;
+        justify-content: center;
+        text-align: left;
+        overflow: hidden;
+        white-space: wrap;
+        padding: 35px 0px;
+    }
+
+    .grid-box br {display: none;}
+
+    .hire-us {flex-direction: column;}
+
+    .hire-us hr {width: 400px;}
+
+    .hire-container {flex-direction: column;}
+
+    .hire-us-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 50px;
+    }
+
+    .hire-us-text h5, span {
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+
+    .hire-us-text h5 {font-size: 50px;}
+
+    .hire-us-text p {
+        text-align: center;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .hire-us-text br {display: none;}
+
+    .form-section {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .hire-form {padding: 0px 10px;}
+
+    .hire-form h3 {font-size: 20px;}
+
+    input, select {
+        width: 49%;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    textarea {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .privacy {
+        width: 100%;
+        text-align: left;
+    }
+
+    .privacy-box {padding: 0px 40px;}
+
+    .privacy-box label {
+        font-size: 15px;
+        overflow: hidden;
+        white-space: wrap;
+    }
+
+    .checkbox {width: 20px;}
+
+    .privacy-links {
+        font-size: 15px;
+        padding-bottom: 25px;}
+
+    .get-started {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .get-started-btn {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .contact {padding: 50px 30px;}
+
+    .contact img {width: 80px;}
+
+    .contact p {font-size: 12px;}
+
+    .location-phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location-phone {font-weight: 600;}
+
+    .contact-card {padding-top: 15px;}
+
+    .contact-card h5 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .contact-card a {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .contact-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .social {align-items: center;}
+
+    .social-links {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .privacy-policy {
+        align-items: center;
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .social-icons {
+        gap: 60px;
+        margin-left: 0px;
+    }
+
+    .country-select select {
+        width: 185px;
+        height: 40px;
+    
+    }
+
+    .copyright br {display: none;}
+    .copyright p {margin-top: 0;}
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    [aria-controls="navbarDropdown"]{
+        display: block;
+    }
+
+    [aria-expanded="false"] ~ .nav-list {
+        display: none;
+    }
+
+    [aria-expanded="true"] ~ ul {
+        display: flex;
+    }
+
+    .bg-header {
+        background-image: linear-gradient(130deg, #191970 31%, aliceblue 64%);
+    }
+
+    .container {padding: 20px;}
+
+   .navbar span {font-size: 60px;}
+
+    .navbar-toggler {
+        position: absolute;
+        margin-left: 80%;
+    }
+
+    .nav-list ul  {
+        position: relative;
+        right: 20%;
+        display:inline-flex;
+        flex-direction: column;
+    }
+
+   
+    .empower-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: 100;
+        line-height: 1;
+        padding-left: 0;
+    }
+
+    .empower-box h2 {
+        font-size: 50px;
+    }
+
+    .empower-box hr {width: 350px;}
+
+    .empower-box p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .logo-container {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .benefits {padding: 60px 60px;}
+
+    .benefits-header {width: auto;}
+
+    .benefits-header h2 {font-size: 45px;}
+
+    .benefits-header p {
+        font-size: 20px;
+        text-align: center;
+        overflow: hidden;
+        white-space: wrap;
+    }
+
+    .benefits-box {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 50px;
+    }
+
+    .benefits-card {
+        width: 45%;
+        height: 45%;
+        padding: 20px;
+    }
+
+    .benefits-card img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .benefits-text h4 {font-size: 25px;}
+
+    .benefits-text p {
+        font-size:15px ;
+        text-align: left;
+    }
+
+
+    .logos {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .logos img {
+        width: 100px;
+        height: 100px;
+    }
+/* 
+    .pricing-header h4 {font-size: 45px;}
+
+    .pricing-header p {font-size: 25px;}
+
+    .pricing {
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 100px;
+        align-items: center;
+    }
+
+    .offer {
+        width: 650px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .offer hr {width: 400px;}
+
+    .dollar {
+        font-size: 80px;
+    }
+
+    .pricing-text {font-size: 20px;}
+
+    .grid-play-btn {
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .credit {font-size: 18px;}
+
+    .pricing-grid {padding: 0;}
+
+    .pricing-grid img {width: 100px;}
+
+    .grid-box {
+        width: 100%;
+        padding-left: 55px;
+    }
+
+    .grid-box h5 {font-size: 35px;}
+
+    .grid-box p {
+        text-align: left;
+        font-size: 25px;
+    }
+ */
+    .hire-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .hire-us-text {
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .hire-us-text h5 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    .hire-us-text p {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .hire-us-text hr {
+        width: 45% ;
+        margin-left: 28%;
+    }
+
+    
+    .form-section {padding: 20px 40px;}
+
+    .hire-form {
+        width: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hire-form h3 {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    input, select {
+        width: 49%;
+        height: 70px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 50%;
+    }
+
+    .contact {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 75px;
+    }
+
+    .contact img {width: 170px;}
+
+    .contact p, div {font-size: 20px;}
+
+    .contact-box {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact-card h5 {font-size: 35px;}
+
+    .contact-card a {font-size: 25px;}
+
+    .get-started {margin-left: none;}
+
+    .get-started button {
+        width: 220px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    .location-phone {
+        width: 100%;
+        padding-bottom: 80px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .privacy-policy {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .social-links {
+        width: 50px;
+        font-size: 25px;
+    }
+
+    .social-icons {
+        width: 100%;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    .copyright {font-size: 15px;}
+
+}

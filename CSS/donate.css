@@ -1,0 +1,254 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border: groove 3px #191970;
+    border-radius: 5%;
+    padding: none;
+    margin-left: 40px;
+}
+
+.title {
+    width: 210px;
+    height: 85px;
+}
+
+[aria-controls="navbarDropdown"]{
+    display: none;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+.navbar span {
+    font-size: 30px;
+    color: black;
+}
+
+.container  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 3px solid #000000;
+    align-items: center;
+    padding: 5px;
+}
+
+li {width: 100px;}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    margin-left: 55%;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.glow {
+    background-color: rgb(255, 255, 255, .6);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-weight: 700;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.bg-header {
+    background-image: linear-gradient(130deg, black 27%, #ef953e 45%, yellow 50%, #8efa5a 60%, #82fbd6 65%, #49a0bb 75%, black 83% );
+    background-size: cover;
+}
+
+.donation-page {
+    display: flex;
+    padding-top: 100px;
+}
+
+.image-grid {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+
+
+.grid-wrapper div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+.donations {
+    width: 50%;
+}
+
+.form-section {
+    width: auto;
+    height: auto;
+    padding: 20px 20px;
+    padding-right: 50px;
+}
+
+.hire-form {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hire-form h3 {font-size: 18px;}
+
+.inputs {
+    text-align: center;
+    padding: 5px 5px 20px 5px;
+}
+
+input {
+    width: 49%;
+    height: auto;
+    font-size: 16px;
+    border: 1px solid rgb(128, 128, 128, 40%);
+    border-radius: 5px;
+}
+
+select {
+    width: 49%;
+    height: auto;
+    font-size: 16px;
+    border: 1px solid rgb(128, 128, 128, 40%);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.textarea {
+    text-align: center;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    border: 1px solid rgb(128, 128, 128, 40%);
+    border-radius: 5px;
+}
+
+.privacy {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.privacy-box {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    overflow: hidden;
+    white-space: wrap;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+
+}
+
+.checkbox {width: 50px;}
+
+.privacy-text {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.privacy-links a {border-bottom: dotted 1px rgb(0, 136, 255) ;}
+
+.privacy-links {
+    display: flex;
+    width: auto;
+    font-size: 15px;
+    color:rgb(0, 136, 255) ;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.checkbox {width: 50px;}
+
+.privacy-text {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.privacy-links a {border-bottom: dotted 1px rgb(0, 136, 255) ;}
+
+.privacy-links {
+    display: flex;
+    width: auto;
+    font-size: 15px;
+    color:rgb(0, 136, 255) ;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+
+
+
